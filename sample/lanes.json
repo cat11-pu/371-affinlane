@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "bad_worker_code": "E_BAD_WORKER",
+  "bad_tag_code": "E_BAD_TAG",
+  "dup_tag_code": "E_DUP_TAG",
+  "bad_task_code": "E_BAD_TASK",
+  "dup_task_code": "E_DUP_TASK",
+  "no_worker_code": "E_NO_WORKER",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "tags": [], "next": "", "assign": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "tag", "worker": "x", "tag": "fast" },
+    { "id": 2, "kind": "tag", "worker": "y", "tag": "fast" },
+    { "id": 3, "kind": "submit", "task": 1, "tag": "fast" },
+    { "id": 4, "kind": "submit", "task": 2, "tag": "fast" },
+    { "id": 5, "kind": "submit", "task": 3, "tag": "fast" }
+  ]
+}
